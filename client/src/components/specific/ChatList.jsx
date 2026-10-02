@@ -68,7 +68,7 @@ const Chatlist = ({
       <Stack direction="column">
         {chats?.map((data, index) => {
           const { avatar,groupAvatar, _id, name, groupChat, members } = data;
-
+          
           const messageAlert = newMessageAlert.find(
             (alert) => alert.chatId === _id,
           );

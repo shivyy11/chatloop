@@ -21,7 +21,7 @@ const AvatarCard = ({ avatar = [], groupAvatar, max = 4 }) => {
     <Box sx={{ position: "relative", width: "fit-content" }}>
       <AvatarGroup max={max}>
         {avatars.map((i, index) => (
-          <Avatar key={index} src={transfromImage(i)} />
+          <Avatar key={index} src={i} />
         ))}
       </AvatarGroup>
     </Box>

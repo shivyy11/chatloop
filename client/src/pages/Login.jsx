@@ -19,7 +19,7 @@ import {
 import { VisuallyHiddenInput } from "../components/styles/StyledComponents";
 import { useInputValidation, useStrongPassword, useFileHandler } from "6pp";
 import { usernameValidator } from "../utils/validators";
-
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { server } from "../constants/config";
 import { useDispatch } from "react-redux";
